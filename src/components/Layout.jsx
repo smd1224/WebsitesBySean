@@ -1,5 +1,6 @@
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import { DesLogo } from './DesLogo'
 
 export function Layout({ children }) {
   return (
@@ -9,10 +10,16 @@ export function Layout({ children }) {
           <div className="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20" />
         </div>
       </div>
-      <div className="relative flex w-full flex-col">
-        <Header />
-        <main className="flex-auto">{children}</main>
-        <Footer />
+      <div className="relative flex w-full flex-col text-center">
+        {/* <Header /> */}
+
+        <DesLogo className="mx-auto block" />
+        <p className="text-lg text-zinc-800 dark:text-zinc-400 sm:-mt-40 lg:-mt-40 ">
+          Website is under construction <br />
+          Check back soon!
+        </p>
+
+        {/* <Footer /> */}
       </div>
     </>
   )
