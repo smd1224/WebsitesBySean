@@ -1,6 +1,7 @@
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { DesLogo } from './DesLogo'
+import { DesScriptLogo } from './DesScriptLogo'
 
 export function Layout({ children }) {
   return (
@@ -13,7 +14,7 @@ export function Layout({ children }) {
       <div className=" relative flex w-full flex-col text-center">
         {/* <Header /> */}
 
-        <DesLogo className="mx-auto block lg:mt-20" />
+        <DesScriptLogo className="mx-auto block lg:mt-20" />
         <p className="text-lg text-zinc-800 dark:text-zinc-400 ">
           Website is under construction <br />
           Check back soon!
