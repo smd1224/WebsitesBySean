@@ -1,13 +1,13 @@
-export function DesScriptLogo(props) {
+export function DesScriptLogo({ width, height, ...props }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="400"
+      width={width ?? '400'}
       zoomAndPan="magnify"
       viewBox="0 0 375 187.499995"
-      height="200"
-      preserveAspectRatio="xMidYMid meet"
+      height={height ?? '200'}
+      preserveAspectRatio="xMaxYMid meet"
       version="1.0"
       {...props}
     >

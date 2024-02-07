@@ -12,9 +12,9 @@ export function Layout({ children }) {
         </div>
       </div>
       <div className=" relative flex w-full flex-col text-center">
-        {/* <Header /> */}
+        <Header />
 
-        <DesScriptLogo className="mx-auto block lg:mt-20" />
+        <DesScriptLogo className="md: mx-auto mt-0 block sm:-mt-10" />
         <p className="text-lg text-zinc-800 dark:text-zinc-400 ">
           Website is under construction <br />
           Check back soon!
