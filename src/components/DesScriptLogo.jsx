@@ -3,10 +3,10 @@ export function DesScriptLogo(props) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="500"
+      width="400"
       zoomAndPan="magnify"
       viewBox="0 0 375 187.499995"
-      height="250"
+      height="200"
       preserveAspectRatio="xMidYMid meet"
       version="1.0"
       {...props}
